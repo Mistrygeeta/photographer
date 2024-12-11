@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 95, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containt{
+    width: 850px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1498743712100-6ebefc021d0f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.left > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 5px;
+}
+
+nav > h2{
+    color: tomato;
+}
+
+nav > i{
+    cursor: pointer;
+}
+
+
+.left > h1{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 80px;
+    color: white;
+}
+
+h1 > span{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    
+}
+
+.right > h1{
+    text-align: center;
+    color:  rgb(17, 95, 69);
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.right > h3{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+form{
+    padding: 10px;
+}
+
+form > h2{
+   font-size: 20px;
+   padding-top: 8px;
+}
+
+input{
+    padding: 5px 100px;
+    outline: none;
+}
+
+.dob{
+   padding:5px  130px;
+}
+
+button{
+    margin: 10px 150px;
+    background-color: rgb(17, 95, 69);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
